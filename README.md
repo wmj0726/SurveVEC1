@@ -5,14 +5,14 @@ A Hybrid Blockchain and Reinforcement Learning Framework for Efficient Task Offl
 ---
 
 ## 运行指南
-rus卸载节点选择测试
+- rus卸载节点选择测试
 select_k_test
-抗窃听节点数量测试
+- 抗窃听节点数量测试
 select_jam_test
-区块测试
+- 区块测试
 Block_attack_test
 PoH_test
-功率系数测试
+- 功率系数测试
 power_k_test
 
 
@@ -22,13 +22,13 @@ power_k_test
 - Git
   
 - 必要的 Python 包
-import asyncio
-import hashlib
-import random
-import time
-import numpy as np
-import pandas as pd
-import torch
-from tqdm import tqdm
-import os
-import rsa
+-import asyncio
+-import hashlib
+-import random
+-import time
+-import numpy as np
+-import pandas as pd
+-import torch
+-from tqdm import tqdm
+-import os
+-import rsa
