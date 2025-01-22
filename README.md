@@ -1,34 +1,59 @@
-# SurveVEC1
+# **项目名称**
 A Hybrid Blockchain and Reinforcement Learning Framework for Efficient Task Offloading in VEC
-**SecureVEC** 是一个基于区块链和强化学习的混合框架，旨在为车载网络提供高效且安全的数据处理。它通过结合区块链的去中心化特性和强化学习的智能决策机制，优化了数据处理的效率，并有效地防止了数据篡改攻击。
+
+## **简介**
+**SecureVEC**是一个基于区块链和强化学习的混合框架，旨在为车载网络提供高效且安全的数据处理。它通过结合区块链的去中心化特性和强化学习的智能决策机制，优化了数据处理的效率，并有效地防止了数据篡改攻击。
 
 ---
 
-## 运行指南
-- rus卸载节点选择测试
-select_k_test.py
-- 抗窃听节点数量测试
-select_jam_test.py
-- 区块测试
-Block_attack_test.py
-PoH_test.py
-- 功率系数测试
-power_k_test.py
+## **目录**
+- [项目概述](#项目概述)
+- [核心特点](#核心特点)
+- [安装指南](#安装指南)
+- [数据集](#数据集)
 
 
-### 先决条件
 
-- Python 3.6+
-- Git
-  
-- 必要的 Python 包
-- import asyncio
-- import hashlib
-- import random
-- import time
-- import numpy as np
-- import pandas as pd
-- import torch
-- from tqdm import tqdm
-- import os
-- import rsa
+---
+
+## **项目概述**
+由以下三个核心模块组成，以实现高效卸载节点、抗窃听节点的选择，达到最佳效率值：
+
+### **核心模块**
+1. **[select_k_test.py]**
+   - rsu卸载节点选择测试。
+     
+2. **[select_jam_test.py]**
+   - 抗窃听节点数量测试。
+     
+3. **[PoH_test.py]**
+   - 区块测试。
+
+### **应用领域**
+本项目适用于以下典型场景：
+- 车联网流量预测
+- 数据信息安全保护
+
+---
+
+## **核心特点**
+- **高效性**：描述高效处理的能力，例如快速计算或优化算法。
+- **灵活性**：描述模块化、可配置性或自适应能力。
+- **鲁棒性**：描述项目在不同环境下的稳定表现。
+
+---
+
+## **安装指南**
+按照以下步骤安装和运行项目名称：
+
+### **1. 克隆代码仓库**
+
+-  git clone https://github.com/xxxx
+-  cd SecureVEC
+
+### **2. 安装依赖项**
+-  pip install -r requirements.txt
+
+## **数据集**
+- metr-la.h5
+- pems-bay.h5
